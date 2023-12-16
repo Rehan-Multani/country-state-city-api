@@ -36,7 +36,7 @@ app.get('/city', (req, res) => {
 });
 app.get('/api', (req, res) => {
     const country = req.query.country;
-    const city = req.query.city;
+    const city = req.query.state;
 
     if (country && city) {
 
